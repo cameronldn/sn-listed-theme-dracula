@@ -13,4 +13,4 @@ More info can be found [here](https://standardnotes.org/help/66/how-do-i-change-
 
 ## Demo
 
-See the theme in action: [https://blog.cldn.dev/](https://blog.cldn.dev/NI99dUQMYU)
+See the theme in action: [https://blog.cldn.dev/](https://blog.cldn.dev/7124/git-backup-process)
