@@ -2,15 +2,14 @@
 metatype: css
 ---
 
-/* Hides Post Bodys */
-.post-body {
+/* Enable to hide post bodies */
+/* .post-body {
   display: none;
 }
 
 #single-post-show .post-body {
   display: inline;
-}
-/* Hides Post Bodys */
+} */
 
 /* Blog body styling */
 html,
