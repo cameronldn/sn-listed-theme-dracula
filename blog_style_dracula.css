@@ -3,23 +3,23 @@ metatype: css
 ---
 
 /* Enable to hide post bodies */
-/* .post-body {
+.post-body {
   display: none;
 }
 
 #single-post-show .post-body {
   display: inline;
-} */
+}
 
 /* Blog body styling */
 html,
 body {
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Consolas", sans-serif;
 }
 
 body {
   background: #21222c;
-  color: #d3d3d3;
+  color: #f8f8f2;
 }
 
 /* Blog post content styling */
@@ -28,24 +28,21 @@ table tr:nth-child(2n) {
   background: #21222c !important;
 }
 
-p,
+.author-word-count,
 form,
 .sublabel,
-hr::before,
 label,
 .post-body,
-strong,
 .nn,
 ol,
 li {
-  color: #d3d3d3 !important;
+  color: #f8f8f2 !important;
 }
 
 h1 a,
 h2 a,
 h3 a,
 h4 a,
-a,
 h1,
 h2,
 h3,
@@ -53,19 +50,33 @@ h4 {
   color: #f8f8f2 !important;
 }
 
-.post-date {
-  color: #d3d3d3;
+a,
+.prettyprint {
+    color: #8be9fd !important;
+}
+
+a:hover,
+.post-title:hover {
+    color: #bd93f9 !important;
+    text-decoration: none !important;
+}
+
+hr::before,
+.username,
+.post-date,
+.faded {
+  color: #bd93f9 !important;
 }
 
 .post-content {
-  color: #343746 !important;
+  color: #44475a !important;
 }
 
 /* Button styling */
 
 .big-button {
   transition-duration: 0.25s;
-  background-color: #343746 !important;
+  background-color: #44475a !important;
 }
 
 .big-button:hover,
@@ -84,7 +95,7 @@ h4 {
 }
 
 #author-header .item:not(.first) {
-  border-left: 1px solid #343746;
+  border-left: 1px solid #44475a;
 }
 
 .header-image {
@@ -99,17 +110,17 @@ h4 {
 /* Form styling */
 
 input {
-  color: #d3d3d3 !important;
+  color: #f8f8f2 !important;
 }
 
 .form-box {
-  border: 1px solid #343746;
+  border: 1px solid #44475a;
 }
 
 pre,
 .highlight,
 input {
-  background-color: #343746 !important;
+  background-color: #44475a !important;
   border-radius: 8px;
 }
 
@@ -119,7 +130,7 @@ input {
   color: #f8f8f2 !important;
 }
 .sk-notification.contrast::before {
-    background-color: #343746 !important;
+    background-color: #44475a !important;
 }
 .sk-p {
     color: #f8f8f2 !important;
@@ -128,17 +139,17 @@ input {
 /* MD Code Syntax Highlighting */
 
 code {
-  background-color: #343746 !important;
-  border: 1px solid #343746 !important;
+  background-color: #44475a !important;
+  border: 1px solid #44475a !important;
   border-radius: 8px;
 }
 
 pre code {
-  color: #d3d3d3;
+  color: #f8f8f2;
 }
 
 p code {
-  color: #d3d3d3 !important;
+  color: #f8f8f2 !important;
 }
 
 /* 
@@ -146,7 +157,7 @@ Dracula Theme for Pygments
 source: https://github.com/dracula/pygments/blob/master/dracula.css
 */
 .highlight .hll { background-color: #f1fa8c }
- .highlight  { background: #282a36; color: #f8f8f2 }
+ .highlight  { background: #21222c; color: #f8f8f2 }
  .highlight .c { color: #6272a4 } /* Comment */
  .highlight .err { color: #f8f8f2 } /* Error */
  .highlight .g { color: #f8f8f2 } /* Generic */
